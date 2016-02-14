@@ -1,0 +1,56 @@
+.content-margin p, .content-margin ul, .content-margin span{
+	color: #595959;
+	line-height: 20px;
+}
+.content-margin{
+	margin-right: 2px
+}
+.content .about-ul{
+	list-style-image:url(../../img/clients.png);
+	list-style-position: inside;
+	margin-top: 10px;
+	margin-left: 3px;
+	line-height: 30px;
+}
+.title-subtitle-page{
+	font-size: 16px;
+	font-weight: bold;
+}
+.c1-desc{
+	float: left;
+	width: 272px;
+	margin-right: 22px;
+}
+.c1-desc p{
+	color: #f1c100;
+	font-size: 258px;
+	font-family: 'gotham_probold', sans-serif;
+	line-height: 210px;
+	letter-spacing: -0.08em;
+}
+.c1-desc span{
+	font-style: italic;
+	font-size: 12px;
+	line-height: 16px;
+	margin-top: 27px;
+	margin-left: 16px;
+	letter-spacing: -0.02em;
+	display: block;
+}
+.subtitle-page{
+	margin-top: 39px;
+}
+.desc-subtitle-page{
+	margin-top: 17px;
+}
+.img-desc-subtitle{
+	margin-top: 43px;
+	border-bottom: 1px solid #c3c3c3;
+	padding-bottom: 57px;
+}
+.about-text{
+	margin-top: 42px;
+}
+.subtitle-page > p:last-child{
+	margin-top: 46px;
+}

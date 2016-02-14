@@ -1,0 +1,45 @@
+body{
+	background-color: #fff;
+}
+.title-contacts{
+	font-size: 24px;
+	font-family: 'gotham_promedium', sans-serif;
+	margin-left: -3px;
+	margin-top: 0px;
+}
+.contacts-table tr{
+	height: 36px;
+	letter-spacing: -0.022em;
+}
+.contacts-table tr td:first-child{
+	color: #595959;
+}
+.contacts-table tr td:last-child{
+	color: #000;
+}
+.ymaps-copyright-legend-container{
+	display: none;
+}
+.ymaps-copyrights-logo{
+	display: none;
+}
+.contacts-table{
+	margin-top: 23px;
+}
+#map{
+	margin-top: 30px;
+	margin-bottom: 245px;
+}
+.contacts-print-table{
+	float: right;
+	width: 381px;
+	font-size: 15px;
+	margin-top: 24px;
+}
+.logo{
+	float: left;
+}
+.contacts-print{
+	margin-top: 99px;
+	font-family: arial, sans-serif;
+}

@@ -1,0 +1,65 @@
+.product-img{
+	background: #a59485 url(../../img/pImg.jpg) no-repeat center top;
+	position: relative;
+	top: 0;
+	width: 100%;
+	min-width: 980px;
+	height: 140px;
+}
+.content{
+	float: right;
+	width: 684px;
+	margin-top: 59px;
+	margin-bottom: 31px;
+}
+.about-product{
+	color: #595959;
+	font-size: 14px;
+	margin-top: 39px;
+	letter-spacing: -0.01em;
+}
+.skills{
+	margin-top: 30px;
+}
+.skill ul{
+	margin-top: 12px;
+}
+.skills .skill:last-child{
+	margin: 0;
+}
+.skill li a{
+	color: #010101;
+	line-height: 27px;
+}
+.wrap-skills{
+	margin-top: -6px;
+}
+.skill{
+	margin-right: 31px;
+	width: 325px;
+	padding: 22px 54px 43px 54px;
+	float: left;
+	background: #fff;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #cdcdcd;
+	height: 100%;
+}
+.skill:last-child{
+	margin-right: 0;
+}
+.titli-skill{
+	font-size: 24px;
+	line-height: 23px;
+	font-family: 'gotham_promedium';
+}
+.titli-skill a:before{
+	content: "";
+	display: block;
+	float: left;
+	width: 22px;
+	height: 22px;
+	background: url(../../img/skills.png) no-repeat;
+	margin-left: -34px;
+}

@@ -1,0 +1,29 @@
+.date-news{
+	font-style: italic;
+	font-size: 12px;
+	color: #595959;
+}
+.title-news{
+	font-size: 24px;
+	color: #2f2f2f;
+	font-family: 'gotham_probold', sans-serif;
+	line-height: 24px;
+}
+.img-news{
+	float: left;
+	margin: 7px 22px 25px 0;
+}
+.news-block p:first-of-type{
+	margin-top: 32px;
+}
+.news-block p{
+	margin-top: 20px;
+	line-height: 20px;
+	color: #595959;
+}
+.news-block{
+	margin-top: 37px;
+}
+.title-news{
+	margin-top: 9px;
+}

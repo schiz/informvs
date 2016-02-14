@@ -1,0 +1,221 @@
+.this-gray{
+	line-height: 20px;
+	color: #595959;
+}
+.margin-img{
+	margin: 0 49px 70px 0;
+}
+.this-gray ul{
+	margin-top: 29px;
+}
+.content-top-menu {
+	margin-top: 59px;
+	padding-bottom: 29px;
+}
+.content-top-menu h1 {
+	margin-left: 0;
+}
+.project-detail-img{
+	background: #a59f91 url(../../img/dImg.jpg) no-repeat center top;
+	height: 140px;
+}
+.previous-next-project{
+	text-align: right;
+	font-size: 11px;
+}
+.previous-next-project div{
+	display: inline-block;
+	color: #595959;
+}
+.previous-next-project a{
+	letter-spacing: 0.020em;
+	margin-left: 2px;
+}
+.previous-next-project .next-project a:before{
+	content: "";
+	background: url(../../img/arrowNext.png) no-repeat;
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+	margin-right: 7px;
+	-moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
+}
+.previous-next-project .previous-project a:after{
+	content: "";
+	background: url(../../img/arrowNext.png) no-repeat;
+	width: 12px;
+	height: 7px;
+	display: inline-block;
+	margin-left: 7px;
+}
+.not-active:before{
+	background: none!important;
+}
+.not-active:after{
+	background: none!important;
+}
+.not-active{
+	color: #595959;
+	text-decoration: none;
+}
+.customer-project{
+	margin-top: 32px;
+	margin-left: 2px;
+}
+.customer-project div{
+	color: #595959;
+	display: inline-block;
+}
+.customer-project span{
+	font-weight: bold;
+	display: inline-block;
+}
+.project-detail-block{
+	margin-top: -11px;
+	padding-bottom: 46px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.project-detail-block > div:first-child{
+	letter-spacing: -0.01em;
+	font-size: 30px;
+	font-family: 'gotham_promedium', sans-serif;
+	line-height: 30px;
+}
+.description-work{
+	margin-top: 35px;
+	margin-left: 3px;
+}
+.description-work p{
+	line-height: 20px;
+}
+.previous-next-project{
+	margin-top: 35px;
+}
+.wrap-task-project{
+	margin-top: 24px;
+}
+.task-project{
+	width: 500px;
+	color: #595959;
+	float: left;
+}
+.title-desc-project{
+	padding-left: 2px;
+}
+.task-project .title-desc-project div{
+	float: left;
+}
+.task-project .title-desc-project p{
+	float: right;
+	width: 431px;
+	font-size: 13px;
+}
+.used-products{
+	margin-top: 3px;
+	float: right;
+	font-size: 12px;
+	background-color: #fff;
+	border: 1px solid #d6d6d6;
+	padding: 19px 42px 40px 42px;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	width: 406px;
+}
+.used-products div:first-child{
+	line-height: 29px;
+	font-size: 13px;
+	color: #595959;
+}
+.used-products div:first-child:before{
+	content: "";
+	display: block;
+	float: left;
+	margin-right: 14px;
+	background: url(../../img/skills.png) no-repeat;
+	width: 22px;
+	height: 22px;
+}
+.link-used-products{
+	margin-left: 36px;
+}
+.link-used-products div{
+	display: inline-block;
+	margin: 0 5px;
+}
+.link-used-products a{
+	letter-spacing: -0.02em;
+}
+.description-work .title-description-work{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 17px;
+}
+.p-img-project{
+	margin-top: 29px;
+	margin-bottom: 25px;
+}
+.p-img-project img{
+	margin-top: 5px;
+}
+.description-work > div img{
+	display: block;
+	float: left;
+	margin: 0 49px 70px 0;
+}
+.customer-testimonial{
+	border:1px solid #cdcdcd;
+	background-color: #fff;
+	padding: 28px 35px 41px 45px;
+	position: relative;
+	margin-top: 97px;
+	margin-bottom: 59px;
+}
+.flag{
+	position: absolute;
+	width: 62px;
+	height: 55px;
+	top: -55px;
+	left: 87px;
+	background: url(../../img/customerTestimonial.png) no-repeat;
+}
+.customer-testimonial .title-customer-testimonial{
+	font-weight: bold;
+	font-size: 16px;
+}
+.customer-testimonial-left p{
+	float: left;
+	line-height: 20px;
+	font-style: italic;
+	width: 666px;
+	padding-right: 20px;
+	border-right: 1px solid #d6d6d6;
+}
+.customer-testimonial-right{
+	float: right;
+	width: 185px;
+}
+.customer-testimonial-right div{
+	font-weight: bold;
+}
+.customer-testimonial-left{
+	margin-top: 23px;
+}
+.customer-testimonial-right p{
+	font-size: 12px;
+	display: inline-block;
+}
+.customer-testimonial-right a{
+	font-size: 12px;
+	display: inline-block;
+	margin-top: 44px;
+}
+.sertificates-js div {
+	width: 663px;
+	height: 811px;
+	padding: 55px 67px 55px 72px;
+}

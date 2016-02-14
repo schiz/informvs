@@ -1,0 +1,38 @@
+.partner-block{
+	border-bottom: 1px solid #c3c3c3;
+	margin-top: 52px;
+	padding-bottom: 52px;
+}
+.partner-block:last-child{
+	border: none;
+}
+.img-url{
+	float: left;
+	width: 170px;
+	overflow: hidden;
+	margin-top: 1px;
+	text-align: center;
+}
+.img-url img{
+	display: block;
+}
+.img-url a{
+	color: #595959;
+	font-size: 12px;
+	margin-top: 9px;
+	display: inline-block;
+	letter-spacing: -0.03em;
+}
+.title-desc-partner{
+	float: right;
+	width: 482px;
+}
+.title-partner{
+	font-size: 20px;
+	font-family: 'gotham_promedium', sans-serif;
+}
+.title-desc-partner p{
+	color: #595959;
+	font-size: 13px;
+	margin-top: 13px;
+}

@@ -1,0 +1,89 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+.desc-slider{
+	width: 235px;
+	position: absolute;
+	top: 4px;
+	right: 79px;
+	font-size: 28px;
+	display: table;
+	height: 400px;
+	color: #fff;
+	font-family: 'gotham_promedium', sans-serif;
+}
+.desc-slider div{
+	display: table-cell;
+	vertical-align: middle;
+}
+.desc-slider span{
+	background-color: #727272;
+	line-height: 35px;
+	padding: 5px 40px 3px 5px;
+}
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+/** THEME
+===================================*/
+.bx-wrapper .bx-pager{
+	position: absolute;
+	bottom: 18px;
+	width: 98%;
+	text-align: right;
+	font-size: 0em;
+}
+
+/* PAGER */
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+}
+.bx-pager-item{
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border-radius: 16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	box-shadow: inset 2px 3px 3px #ccc;
+	margin-right: 10px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 10px;
+	margin-top: 3.4px;
+	margin-left: 3px;
+}
+.bx-pager-item:hover a, .bx-pager-item a.active{
+	background-color: #d81921;
+}
+.bx-controls-direction{
+	display: none;
+}

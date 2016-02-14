@@ -1,0 +1,87 @@
+p{
+	font-weight: bold;
+	font-size: 16px;
+}
+input{
+	border-radius: 5px;
+	background: #000;
+	color: #fff;
+	outline: none;
+	padding: 5px 20px;
+}
+.datepiker{
+	position: relative;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	width: 310px;
+	background-color: #C9C9C9;
+	display: none;
+}
+#days table{
+	width: 100%;
+}
+#days td{
+	border: 1px solid #fff;
+	background-color: black;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+}
+#days td:hover{
+	color: red;
+	background-color: #C9C9C9;
+	font-weight: bold;
+}
+.prev{
+	background: url(../img/icons.png) no-repeat -82px -194px;
+	cursor: pointer;
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin-top: 3px;
+}
+.next{
+	background: url(../img/icons.png) no-repeat -50px -194px;
+	cursor: pointer;
+	width: 12px;
+	height: 12px;
+	float: right;
+	margin-top: 3px;
+}
+.month{
+	margin-left: 30px;
+	font-weight: bold;
+	float: left;
+	margin-right: 10px;
+}
+.year{
+	float: left;
+	font-weight: bold;
+}
+#days .active{
+	background-color: #fff;
+	color: #000;
+	font-weight: bold;
+}
+.today{
+	float: right;
+	font-weight: bold;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.clear{
+	clear: both;
+	display: block;
+}
+.clearTd{
+	border: 1px solid #C9C9C9 !important;
+	background-color: #C9C9C9 !important;
+	cursor: default !important;
+}
+button{
+	outline: none;
+	background: none;
+	padding: 0;
+	margin: 0;
+	border: none;
+}

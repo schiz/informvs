@@ -1,0 +1,62 @@
+.sertificates{
+	margin-top: 40px;
+}
+.content-width{
+	width:685px;
+}
+.sertificate{
+	text-decoration: none;
+	width: 212px;
+	border: 1px solid #cdcdcd;
+	background-color: #fff;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	text-align: center;
+	padding: 19px 10px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	height: 301px;
+	overflow: hidden;
+}
+.sertificate:nth-child(3){
+	margin-right: 0;
+}
+.sertificate img{
+	display: block;
+	margin: 22px auto 0 auto;
+	max-width: 185px;
+}
+.sertificate:hover p{
+	color: #d81921;
+	text-decoration: underline;
+}
+.sertificate:hover{
+	cursor: pointer;
+}
+.sertificate:hover div{
+	display: block;
+}
+.sertificate div{
+	position: absolute;
+	display: none;
+	right: 10px;
+	bottom: 12px;
+	width: 15px;
+	height: 15px;
+	background: url(../../img/sertificates/magnifier.png) no-repeat;
+}
+.sertificates-js div{
+	width: 552px;
+	height: 703px;
+}
+.sertificates-big{
+	position: absolute;
+	top: 0;right: 0;bottom: 0;left: 0;
+	margin: auto;
+}
+.sertificates-js > div{
+	top:0;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reg</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+
+	<style type="text/css">
+		p{
+			margin: 0;
+			font-weight: bold;
+		}
+		input{
+			width: 200px;
+			height: 30px;
+			border: 2px solid gold;
+			background: #000;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			color: white;
+			padding: 0 20px;
+			outline: none;
+		}
+		.submit{
+			display: inline-block;
+			height: 30px;
+			border-radius: 10px;
+			border: 1px solid gold;
+			cursor: pointer;
+			color: purple;
+			line-height: 30px;
+			padding: 0 20px;
+		}
+		.popup{
+			color:white;
+			text-shadow: 1px 1px 1px #000;
+			font-size: 50px;
+			line-height: 300px;
+			text-align: center;
+			width: 300px;
+			height: 300px;
+			border-radius: 300px;
+			background: purple;
+			margin: 20px auto;
+			cursor: pointer;
+			display: none;
+		}
+		form .button{
+			display: none;
+		}
+	</style>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$(".submit").on("click", function() {
+				var textReg = /^[a-z]{2,5}$/,
+					textResult = $(".text").val().search(textReg),
+					telReg = /^\d{2,5}$/,
+					telResult = $(".tel").val().search(telReg);
+				console.log(textResult + " - " + telResult)
+				if(textResult == 0 && telResult == 0) {
+					$(".submit").fadeIn(1000);
+					$(this).hide();
+					$(".text,.tel,p").hide();
+					$(".popup").show();
+				}
+			});
+			$(".popup").on("click",function(){
+				$(this).hide();
+				$(".button").click();
+			});
+		});
+	</script>
+	<div class="popup">Click</div>
+	<form>
+		<p>Латиньскі літери від 2 до 5</p>
+		<input type="text" class="text"><br>
+		<p>Цифри від 2 до 5</p>
+		<input type="tel" class="tel"><br>
+		<input type="submit" class="button">
+		<div class="submit">Надіслати</div>
+	</form>
+
+</body>
+</html>

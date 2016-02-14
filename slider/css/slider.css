@@ -1,0 +1,125 @@
+body, html{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+.clear{
+	clear: both;
+	width: 100%;
+}
+.slider{
+	margin-top: 10px;
+	width: 700px;
+	height: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.slider ul li{
+	float: left;
+	width: 700px;
+}
+.slider ul{
+	position: absolute;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+.slider:hover .prev, .slider:hover .next{
+	display: block;
+}
+.prev, .next{
+	height: 100%;
+	width: 50px;
+	background: url(../img/nav20.png) repeat;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	display: none;
+	-webkit-transition: background  0.3s;
+	-moz-transition: background  0.3s;
+	-o-transition: background  0.3s;
+	transition: background  0.3s;
+}
+.prev{
+	left: 0;
+}
+.prev div, .next div{
+	position: absolute;
+	top: 0;left: 0;right: 0;bottom: 0;
+	margin: auto;
+	width: 20px;
+	height: 100px;
+}
+.next div, .mini-prev div{
+	background: url(../img/iconNav.png) no-repeat;
+}
+.prev div, .mini-next div{
+	background: url(../img/iconNav.png) no-repeat -20px 0;
+}
+.prev:hover,.next:hover{
+	background: url(../img/nav40.png) repeat;
+}
+.next{
+	right: 0;	
+}
+.mini{
+	position: relative;
+}
+.mini li{
+	float: left;
+	height:82px;
+	width: 82px;
+	margin: 10px;
+	text-align: center;
+	cursor: pointer;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mini li img{
+	border: 1px solid purple;
+}
+.wrap-mini-nav{
+	position: relative;
+	width: 700px;
+	margin: 0 auto;
+}
+.mini-sliderArrow{
+	position: absolute;
+	top: 30px;
+	width: 30px;
+	height: 40px;
+	opacity: .5;
+	cursor: pointer;
+}
+.mini-sliderArrow:hover{
+	opacity: 1;
+}
+.mini-prev{
+	right: 5px;
+}
+.mini-next{
+	left: 5px;
+}
+.mini-prev div, .mini-next div{
+	position: absolute;
+	top: 0;left: 0;right: 0;bottom: 0;
+	margin: auto;
+	width: 20px;
+	height: 40px;
+}
+.mini-prev div{
+	background: url(../img/miniNav.png) no-repeat;
+}
+.mini-next div{
+	background: url(../img/miniNav.png) no-repeat -20px 0;
+}
+.wrap-mini{
+	width: 600px;
+	overflow: hidden;
+	margin: 0 auto;
+}

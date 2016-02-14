@@ -1,0 +1,46 @@
+.services-block{
+	margin-top: 56px;
+	border-bottom: 1px solid #c3c3c3;
+	padding-bottom: 38px;
+}
+.services-block:last-child{
+	border: none;
+}
+.services-block p{
+	color: #595959;
+	margin-top: 13px;
+}
+.title-services a{
+	font-family: 'gotham_promedium', sans-serif;
+	color: #d81921;
+	font-size: 24px;
+}
+.title-services a:before{
+	content: "";
+	display: block;
+	float: left;
+}
+.title-services .magnifier:before{
+	width: 24px;
+	height: 24px;
+	background: url(../../img/magnifier.png) no-repeat;
+	margin: -2px 13px 0 2px;
+}
+.title-services .delivery:before{
+	width: 22px;
+	height: 22px;
+	background: url(../../img/skills.png) no-repeat;
+	margin: -2px 16px 0 2px;
+}
+.title-services .setting:before{
+	width: 25px;
+	height: 24px;
+	background: url(../../img/setting.png) no-repeat;
+	margin: -2px 13px 0 2px;
+}
+.title-services .escort:before{
+	width: 24px;
+	height: 28px;
+	background: url(../../img/escort.png) no-repeat;
+	margin: -2px 15px 0 2px;
+}

@@ -1,0 +1,93 @@
+.this-gray ul{
+	list-style-type: disc;
+}
+.this-gray ul ul{
+	margin: 0;
+	margin-left: 15px;
+	list-style-type: circle;
+}
+.project-detail-img {
+	background: #a59f91 url(../../img/dImg.jpg) no-repeat center top;
+	height: 141px;
+}
+.content-top-menu h1 {
+	margin-left: 0;
+}
+.content-top-menu {
+	margin-top: 59px;
+	padding-bottom: 29px;
+}
+.wrap-blocks-project-list{
+	margin-top: 31px;
+}
+.block-project-list{
+	width: 478px;
+	border: 1px solid #d6d6d6;
+	float: left;
+	margin-right: 20px;
+}
+.block-project-list:last-child{
+	margin-right: 0;
+}
+.project-list{
+	background-color: #fff;
+	padding: 23px 20px 30px 28px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.title-project-list{
+	font-family: 'gotham_promedium', sans-serif;
+	font-size: 24px;
+}
+.used-project{
+	font-size: 12px;
+	background-color: #f7f7f7;
+	border-top: 1px solid #d6d6d6;
+	padding: 14px 30px 31px 30px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.used-project div:first-child {
+	line-height: 29px;
+	font-size: 13px;
+	color: #595959;
+}
+.used-project div:first-child:before {
+	content: "";
+	display: block;
+	float: left;
+	margin-right: 14px;
+	background: url(../../img/skills.png) no-repeat;
+	width: 22px;
+	height: 22px;
+}
+.link-used-products {
+	margin-left: 36px;
+	letter-spacing: -0.02em;
+}
+.link-used-products div {
+	display: inline-block;
+	margin: 0 5px;
+}
+.customer-project-list {
+	margin-top: 11px;
+	margin-left: 2px;
+}
+.customer-project-list div {
+	color: #595959;
+	display: inline-block;
+}
+.customer-project-list span {
+	font-weight: bold;
+	display: inline-block;
+}
+.customer-project-list p{
+	margin-top: 23px;
+}
+.project-list-bottom{
+	margin-bottom: 30px;
+	min-height: 764px;
+}
